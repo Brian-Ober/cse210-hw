@@ -4,7 +4,7 @@ using System.Text;
 public class Normal: Goal
 {
    
-     public override void NewGoal(string type)
+     public override void NewGoal()
     {
         
         Console.WriteLine("What is the name of your goal?");
@@ -15,7 +15,7 @@ public class Normal: Goal
         string pointsSring = Console.ReadLine();
 
         _assignedPoints = int.Parse(pointsSring);
-        _type = type;
+        
     }
 
     public override void Completed()

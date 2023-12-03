@@ -34,7 +34,7 @@ public class Menu
             if (choice =="1")
             {
                 normalGoal = new Normal();
-                normalGoal.NewGoal(type);
+                normalGoal.NewGoal();
                 goals.Add(normalGoal);
             }
 
@@ -42,11 +42,10 @@ public class Menu
             {
                 foreach (Goal goal in goals)
                 {   
-                    string goalType = goal.getType();
-                    if (goalType =="normal")
-                    {
-                        normalGoal.display();
-                    }
+                    
+                    
+                    goal.display();
+                   
             
                 }
             }

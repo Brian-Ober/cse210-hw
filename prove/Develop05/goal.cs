@@ -6,17 +6,14 @@ public abstract class Goal
     protected string _description;
     protected int _assignedPoints;
 
-    protected string _type;
+    
 
-    public string getType()
-    {
-        return _type;
-    }
+    
     
     public int _totalPoints = 0;
 
    
-    public virtual void NewGoal(string type){
+    public virtual void NewGoal(){
         
     }
 
