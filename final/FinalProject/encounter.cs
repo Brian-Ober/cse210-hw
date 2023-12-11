@@ -6,10 +6,7 @@ using dnd;
 
 public class Encounter
 {   
-    private int totalDamage;
-    private int totalAttack;
     
-    private int _numPotions;
     protected string _newWeapon;
     
 
